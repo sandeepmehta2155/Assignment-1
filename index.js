@@ -1,14 +1,14 @@
 const l = console.log;
 
 // 1. Write a program to find whether a given year is a leap year or not.
+// Answer :
 // =>
+
 /**
  *
  * @param {*} year
- * @returns
+ * @returns flag that determines it is a leap year or not
  */
-
-// Answer :
 const isLeapYear = (year) => year % 4 === 0;
 
 // Output :
@@ -26,7 +26,18 @@ l(isLeapYear(2004), "answer 1");
 // 3. Write a program to find the factorial of a number.
 
 // Answer :
+// =>
+/**
+ * 
+ * @param {*} c 
+ * @returns degree of Celsius
+ */
 const f = (c) => ((c - 32) * 5) / 9;
+/**
+ * 
+ * @param {*} f 
+ * @returns degree of Fahrenheit
+ */
 const c = (f) => (f * 9) / 5 + 32;
 
 // Output :
@@ -34,7 +45,11 @@ l(f(140), c(60), "answer 2 ");
 
 // -------------------------------------------------------------------------------------------------
 // 3. Write a program to find the factorial of a number.
-
+/**
+ * 
+ * @param {*} num 
+ * @returns factorial of num
+ */
 const factorialOfNum = (num) => (num !== 0 ? num * factorialOfNum(num - 1) : 1);
 
 l(factorialOfNum(5),"answer 3");
