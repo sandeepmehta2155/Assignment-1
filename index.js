@@ -27,12 +27,14 @@ l(isLeapYear(2004), "answer 1");
 
 // Answer :
 // =>
+
 /**
  * 
  * @param {*} c 
  * @returns degree of Celsius
  */
 const f = (c) => ((c - 32) * 5) / 9;
+
 /**
  * 
  * @param {*} f 
@@ -45,6 +47,7 @@ l(f(140), c(60), "answer 2 ");
 
 // -------------------------------------------------------------------------------------------------
 // 3. Write a program to find the factorial of a number.
+
 /**
  * 
  * @param {*} num 
